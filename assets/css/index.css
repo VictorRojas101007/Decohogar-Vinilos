@@ -1,7 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap");
 body {
+  font-family: "Caveat", sans-serif;
   margin: 0;
   width: 100%;
+}
+.main__header {
+  position: sticky;
+  top: 0;
+  z-index: 999;
 }
 .top__nav {
   display: flex;
@@ -68,6 +74,10 @@ li {
   list-style: none;
   font-size: 20px;
 }
+a {
+  color: #827153;
+  text-decoration: none;
+}
 .hero {
   width: 100%;
   background-image: url(/assets/images/Fondo-Decohogar.jpg);
@@ -120,6 +130,7 @@ h1 {
   .links__list {
     font-size: 20px;
   }
+
   .divider__horizontal {
     display: none;
   }
@@ -152,4 +163,66 @@ h1 {
   .padre {
     width: 90%;
   }
+}
+/*Card section*/
+.card__section {
+  /* border: 1px solid black; */
+  background-color: #f7f4ee;
+  padding: 14px;
+  height: auto;
+  display: flex;
+  gap: 90px;
+  flex-direction: column;
+}
+.container__card {
+  width: 90%;
+  margin: 20px auto;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.card__text p {
+  text-align: justify;
+  font-family: "Comic Neue", serif;
+  margin-bottom: 0;
+  font-size: 25px;
+}
+.card__text h2 {
+  color: #e6b8af;
+  font-size: 80px;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+img {
+  object-fit: contain;
+}
+.card__text {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 300px;
+}
+.card__img {
+  gap: 30px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 500px;
+}
+button {
+  padding: 10px;
+  width: 30%;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 0.2px solid;
+}
+.divider__horizontal__main {
+  border: 1px solid #827153;
+  width: 100%;
 }
