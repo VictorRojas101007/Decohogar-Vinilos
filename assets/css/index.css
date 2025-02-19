@@ -127,6 +127,9 @@ h1 {
   }
 }
 @media (min-width: 56rem) {
+  .hero {
+    height: calc(100vh - 1rem);
+  }
   .links__list {
     font-size: 20px;
   }
@@ -156,7 +159,7 @@ h1 {
     grid-row-end: 2;
   }
   .flechita {
-    top: 95%;
+    top: 90%;
   }
 }
 @media (max-width: 55rem) {
