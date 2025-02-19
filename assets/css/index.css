@@ -4,11 +4,11 @@ body {
   margin: 0;
   width: 100%;
 }
-.main__header {
+/* .main__header {
   position: sticky;
   top: 0;
   z-index: 9999;
-}
+} */
 .top__nav {
   display: flex;
   justify-content: center;
