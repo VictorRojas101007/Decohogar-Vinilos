@@ -209,6 +209,12 @@ img {
   flex-shrink: 1;
   flex-basis: 300px;
 }
+.fotomural {
+  margin-top: -200px;
+}
+.hogar {
+  margin-top: -100px;
+}
 .card__img {
   gap: 30px;
   align-items: center;
