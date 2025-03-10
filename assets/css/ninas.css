@@ -1,0 +1,9 @@
+.hero__ninas {
+  width: 100%;
+  background-image: url(/assets/images/Fondo-Decohogar.jpg);
+  height: calc(100vh - 50rem);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}

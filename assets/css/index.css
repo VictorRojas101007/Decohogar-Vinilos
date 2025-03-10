@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap");
+
 body {
   font-family: "Caveat", sans-serif;
   margin: 0;
@@ -225,13 +226,51 @@ img {
   flex-basis: 500px;
 }
 button {
-  padding: 10px;
+  border: none;
+  background-color: transparent;
+}
+.button {
+  text-align: center;
+  padding: 15px;
   width: 30%;
   border-radius: 10px;
-  background-color: transparent;
-  border: 0.2px solid;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: none;
+}
+.button:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  transform: scale(1.1);
 }
 .divider__horizontal__main {
   border: 1px solid #827153;
   width: 100%;
+}
+
+.hero__ninas {
+  width: 100%;
+  background-image: url(/assets/images/Fondo-Decohogar.jpg);
+  height: calc(70vh - 10rem);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.hero__ninas::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: hsla(0, 0%, 4%, 0.4);
+  position: absolute;
+}
+.h2__ninas {
+  color: white;
+  font-size: 50px;
+  font-family: "Caveat";
+  margin: 0;
+}
+.main__hero-ninas {
+  top: 32%;
+  width: 100%;
+  position: absolute;
+  text-align: center;
 }
