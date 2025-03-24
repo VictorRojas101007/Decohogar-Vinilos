@@ -246,6 +246,7 @@ button {
   width: 100%;
 }
 
+/*ninas*/
 .hero__ninas {
   width: 100%;
   background-image: url(/assets/images/Fondo-Decohogar.jpg);
@@ -273,4 +274,30 @@ button {
   width: 100%;
   position: absolute;
   text-align: center;
+}
+@media (min-width: 56.25rem) {
+  .hero__ninas {
+    height: calc(85vh - 8rem);
+  }
+  .main__hero-ninas {
+    top: 30%;
+  }
+  .h2__ninas {
+    font-size: 4.375rem;
+  }
+}
+.sizes__ninas {
+  background-color: #827153;
+  display: flex;
+  justify-content: center;
+}
+.sizes__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.sizes__container-div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
